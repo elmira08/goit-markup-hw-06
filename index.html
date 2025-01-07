@@ -32,7 +32,74 @@
                             <li class="address-item"><a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a></li>
                         </ul>
                     </address>
+                        <button type="button" class="mobile-menu-open-btn">
+                            <svg class="open-mobil-menu-svg" width="24" height="24">
+                                <use href="./images/icons.svg#icon-header-open-modal"></use>
+                            </svg>
+                        </button>
                 </div> 
+                <div class="mobile-menu">
+                    <div class="container mobile-menu-container">
+                        <button class="mobile-menu-close">
+                            <svg class="mobile-menu-close-svg" width="8" height="8">
+                                <use href="./images/icons.svg#icon-close"></use>
+                            </svg>
+                        </button>
+                        <nav class="navigator-mobile">
+                            <ul class="mobile-nav-list">
+                                <li class="mobile-nav-item">
+                                    <a href="./index.html" class="mobile-nav-item-link">Studio</a>
+                                </li>
+                                <li class="mobile-nav-list-item">
+                                    <a href="" class="mobile-nav-item-link">Portfolio</a>
+                                </li>
+                                <li class="mobile-nav-list-item">
+                                    <a href="" class="mobile-nav-item-link">Contacts</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <address class="mobile-address">
+                            <ul class="mobile-address-list">
+                                <li class="mobile-address-list-item">
+                                    <a class="mobile-address-item-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                                </li>
+                                <li class="mobile-address-list-item">
+                                    <a class="mobile-address-item-link" href="mailto:info@devstudio.com">info@devstudio.com"</a>
+                                </li>
+                            </ul>
+                        </address>
+                        <ul class="mobile-social-list">
+                            <li class="mobile-social-list-item">
+                                <a class="mobile-social-link" href="#icon-">
+                                    <svg class="mobile-social-list-svg" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mobile-social-list-item">
+                                <a class="mobile-social-link" href="">
+                                    <svg class="mobile-social-list-svg" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mobile-social-list-item">
+                                <a class="mobile-social-link" href="">
+                                    <svg class="mobile-social-list-svg" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mobile-social-list-item">
+                                <a class="mobile-social-link" href="">
+                                    <svg class="mobile-social-list-svg" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
         </header>
         <main>
             <section class="hero">
@@ -246,7 +313,10 @@
                     <ul class="portfolio-list">
                         <li class="portfolio-list-item">
                             <div class="img-relative">
-                                <img src="./images/bakingapp.jpg" alt="bakig-app-img" >
+                                <img src="./images/bakingapp-mobile.jpg" srcset="
+                                        ./images/bakingapp-mobile.jpg 288w, 
+                                        ./images/bakingapp-tablet.jpg 356w, 
+                                        ./images/bakingapp.jpg 360w"  alt="baking app image" class="responsive-img">
                                 <p class="overlay">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                                     Cloud Storage App
@@ -259,7 +329,10 @@
                         </li>
                         <li class="portfolio-list-item">
                             <div class="img-relative">
-                                <img src="./images/cashlesspayment.jpg" alt="cashless payment">
+                                <img src="./images/cashlesspayment-mobile.jpg" srcset="
+                                        ./images/cashlesspayment-mobile.jpg 288w, 
+                                        ./images/cashlesspayment-tablet.jpg 356w, 
+                                        ./images/cashlesspayment.jpg 360w" alt="baking app image" class="responsive-img">
                                 <p class="overlay">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                                     App ·
@@ -273,8 +346,11 @@
                         </li>
                         <li class="portfolio-list-item">
                             <div class="img-relative">
-                               <img src="./images/MeditationApp.jpg" alt="Meditation App">
-                                <p class="overlay">
+                                <img src="./images/meditationapp-mobile.jpg" srcset="
+                                        ./images/meditationapp-mobile.jpg 288w, 
+                                        ./images/meditationapp-tablet.jpg 356w, 
+                                        ./images/MeditationApp.jpg 360w" alt="baking app image" class="responsive-img">                                
+                                           <p class="overlay">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                                     App ·
                                     Cloud Storage App
@@ -287,7 +363,10 @@
                         </li>
                         <li class="portfolio-list-item">
                             <div class="img-relative">
-                                <img src="./images/Taxi-Service.jpg" alt="Taxi Servic">
+                                <img src="./images/taxiservice-mobile.jpg" srcset="
+                                        ./images/taxiservice-mobile.jpg 288w, 
+                                        ./images/taxiservice-tablet.jpg 356w, 
+                                        ./images/Taxi-Service.jpg 360w"  alt="baking app image" class="responsive-img">
                                 <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                                 App ·
@@ -301,7 +380,10 @@
                         </li>
                         <li class="portfolio-list-item">
                             <div class="img-relative">
-                                <img src="./images/screen.jpg" alt="Phoneapp">
+                                <img src="./images/screenillustriation-mobile.jpg" srcset="
+                                        ./images/screenillustriation-mobile.jpg 288w, 
+                                        ./images/screenillustriation-tablet.jpg 356w, 
+                                        ./images/screen.jpg 360w"alt="baking app image" class="responsive-img">
                                 <p class="overlay">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                                     Ecommerce
@@ -316,7 +398,10 @@
                         </li>
                         <li class="portfolio-list-item">
                             <div class="img-relative">
-                                <img src="./images/OnlineCourses.jpg" alt="Online Courses">
+                                <img src="./images/onlinecources-mobile.jpg" srcset="
+                                        ./images/onlinecources-mobile.jpg 288w, 
+                                        ./images/onlinecources-tablet.jpg 356w, 
+                                        ./images/OnlineCourses.jpg 360w" alt="baking app image" class="responsive-img">
                                 <p class="overlay">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                                     App ·
@@ -384,7 +469,7 @@
                         </div>
             </div> 
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop ">
         <div class="modal">
             <button type="button" class="modal-close">
                 <svg class="icon-close" width="8" height="8">
@@ -439,47 +524,7 @@
             </form>
         </div>
     </div>
-    <div class="mobil-menu">
-        <div class="container container-mobil-menu">
-            <button id="close-mobil-menu" class="mobil-menu-btn" type="button" data-mobil-close="">
-                <svg class="icon-mobil-menu-btn" width="8" height="8">
-                    <use href="./images/icons.svg#icon-close-mobile"></use>
-                </svg>
-                
-            </button>
-            <nav class="nav-page-mobil">
-                <ul class="nav-list-mobil">
-                    <li class="nav-item-mobil"><a href="" nav item-list current-mobil>Studio</a></li>
-                    <li class="nav-item-mobil"><a href="" nav item-list current-mobil>Portfolio</a></li>
-                    <li class="nav-item-mobil"><a href="" nav item-list current-mobil>Contacts</a></li>
-                </ul>
-            </nav>
-            <ul class="svg-social-media-list-mobil">
-                    <li class="svg-social-media-list-item-mobil">
-                        <a href="" class="svg-social-mobil-link">
-                            <svg class="svg-social-mobil" width="24" height="24"><use href="./images/icons.svg#icon-instagram-2"></use></svg>
-                        </a>
-                    </li>
-                    <li class="svg-social-media-list-item-mobil">
-                        <a href="" class="svg-social-mobil-link">
-                            <svg class="svg-social-mobil" width="24" height="24"><use href="./images/icons.svg#icon-twitter-1"></use></svg>
-                        </a>
-                    </li>
-                    <li class="svg-social-media-list-item-mobil">
-                        <a href="" class="svg-social-mobil-link">
-                            <svg class="svg-social-mobil" width="24" height="24"><use href="./images/icons.svg#icon-facebook-1"></use></svg>
-                        </a>
-                    </li>
-                    <li class="svg-social-media-list-item-mobil">
-                        <a href="" class="svg-social-mobil-link">
-                            <svg class="svg-social-mobil" width="24" height="24">
-                                <use href="./images/icons.svg#icon-linkedin-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-            </ul>
-            
-        </div>
+    
     </div>
     </body>
     
