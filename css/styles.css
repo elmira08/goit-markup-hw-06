@@ -626,7 +626,20 @@ img {
     .footer .container {
         flex-wrap: nowrap;
         gap: 0;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 }
 .footer-text {
     font-weight: 400;
@@ -797,6 +810,9 @@ footer-form-label {
         justify-content: center;
         align-items: center;
         flex-direction: row;
+    }
+    .footer-form-box{
+        margin-left: 80px;
     }
 }
 
