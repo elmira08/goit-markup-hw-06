@@ -639,7 +639,6 @@ img {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
 }
 .footer-text {
     font-weight: 400;
@@ -715,11 +714,7 @@ img {
 .socials .team-socials-link:focus {
     background-color: #31D0AA;
 }
-@media screen and (min-width: 1158px) {
-    .footer-form-box {
-        margin-left: auto;
-    }
-}
+
 footer-form-label {
     display: flex;
     flex-direction: column;
@@ -810,6 +805,10 @@ footer-form-label {
         justify-content: center;
         align-items: center;
         flex-direction: row;
+        display: flex;    
+        flex-wrap: nowrap;
+        gap: 24px;
+        
     }
     .footer-form-box{
         margin-left: 80px;
